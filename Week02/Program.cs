@@ -4,7 +4,7 @@ namespace Week02
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // Create variables and do things with them!
           /*  int myNumber = 9001;
