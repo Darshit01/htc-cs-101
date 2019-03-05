@@ -4,7 +4,7 @@ namespace Week01
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
         Console.WriteLine("Hello Word");
         string userName = "Darsh";
