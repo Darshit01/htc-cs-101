@@ -6,7 +6,18 @@ namespace Week6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter the cap value: ");
+            string value = Console.ReadLine();
+            int userInput = Convert.ToInt32(value);
+            int x = 0;
+
+            while (x <= userInput){
+            if (x % 2 == 0){
+                Console.WriteLine(x);
+            }
+            x++;
+            
+            }
         }
     }
 }
