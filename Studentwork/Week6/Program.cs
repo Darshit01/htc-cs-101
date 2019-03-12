@@ -2,7 +2,7 @@
 
 namespace Week6
 {
-    class Program
+    class Program1
     {
         static void Main2(string[] args)
         {
