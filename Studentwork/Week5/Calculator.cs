@@ -30,11 +30,11 @@ namespace Week5{
             
         }
 
-        public static void Main (string[] args){
+        public static void Main5 (string[] args){
             
             double returnValue = 0;
-            double out1 = 0;
-            double out2 = 0;
+           // double out1 = 0;
+           // double out2 = 0;
             Console.WriteLine("Enter a:");
             double a = Convert.ToDouble(Console.ReadLine());
 
@@ -45,7 +45,7 @@ namespace Week5{
             double c = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("What operation to perform (+, -, *, /)");
-            string ops = Convert.ToDouble(Console.ReadLine());
+            string ops = Console.ReadLine();
 
             if(ops == "+"){
                returnValue = AddNumber(a, b);
@@ -56,10 +56,10 @@ namespace Week5{
             }else if(ops == "/"){
                 returnValue = DivideNumber(a, b);
             }else{
-                returnValue = QuadraticFormula(a, b, c, out1, out2);
+            
             }
             Console.WriteLine(returnValue);
-            Console.WriteLine(out1, out2);
+           
         
         }    
        
