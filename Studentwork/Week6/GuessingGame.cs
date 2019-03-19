@@ -22,13 +22,6 @@ namespace Week6_Challenge{
                     Console.WriteLine("Your guess is too high");
                 }
             }
-            
-
-             
-           
-        
-
-
 
         }
     }
