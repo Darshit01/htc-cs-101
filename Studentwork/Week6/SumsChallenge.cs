@@ -3,7 +3,7 @@ namespace SumChallenge
 {
     class Sums_Challenge
     {
-        static void Main(string[] args)
+        static void Main12(string[] args)
         {
             int sum = 0;
             Console.WriteLine("Enter the number of positive integers you want to add: ");
