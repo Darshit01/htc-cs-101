@@ -3,7 +3,7 @@ namespace Week7_Fibonacci
 {
     class Fibonacci
     {
-        public static void Main1(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Enter the number");
             int count = Convert.ToInt32(Console.ReadLine());
