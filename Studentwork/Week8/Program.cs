@@ -4,7 +4,7 @@ namespace Week8
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main23(string[] args)
         {
             PrintHat();
             InToCm();
