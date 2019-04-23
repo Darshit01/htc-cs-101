@@ -9,7 +9,10 @@ namespace Final_Project
     {
         static void Main(string[] args)
         {
-            // ask for number of rows
+        myMethod();
+        }
+        public static void myMethod(){
+                // ask for number of rows
             Console.WriteLine("Enter the number of rows in the matrices: ");
             int row = Convert.ToInt32(Console.ReadLine());
 
@@ -75,12 +78,30 @@ namespace Final_Project
             {
                 for (int j = 0; j < column; j++)
                 {
+                    if (myArray[i, j] == myArray2[i, j])
+                    {
+                        value = true;
 
+                    }
+                    else
+                    {
+                        value = false;
+                    }
+
+
+                    if (value)
+                    {
+                        Console.WriteLine("They are equal");
+                    }
+                    else
+                    {
+                        Console.WriteLine("They are not equal");
+                    }
+
+                    Console.Read();
                 }
+                
             }
-
-
-
         }
     }
 }
