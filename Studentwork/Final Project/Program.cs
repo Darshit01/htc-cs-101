@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
+
 
 namespace Final_Project
 {
@@ -9,8 +8,25 @@ namespace Final_Project
     {
         static void Main(string[] args)
         {
-        myMethod();
-        }
+            Console.WriteLine("Do you want to play the game?");
+            string input = Console.ReadLine();
+            if(input == "yes" || input == "maybe" || input == "yea"){
+                myMethod();
+            }else{
+                Console.WriteLine("not playing!!");
+                Console.WriteLine("Too bad. My choice. You are still playing");
+                myMethod();
+            }
+                Console.WriteLine("Do you want to play again?");
+                string question = Console.ReadLine();
+                if (question == "yes"){
+                    myMethod();
+                }else{
+                    Console.WriteLine("YOU ARE DEAD");
+                }
+            }
+        
+        
         public static void myMethod(){
                 // ask for number of rows
             Console.WriteLine("Enter the number of rows in the matrices: ");
