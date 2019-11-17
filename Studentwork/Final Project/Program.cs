@@ -47,9 +47,7 @@ namespace Final_Project
                 for (int j = 0; j < column; j++)
                 {
                     myArray[i, j] = Convert.ToInt32(Console.ReadLine());
-
                 }
-
             }
             int[,] myArray2 = new int[20, 20];     // array for second matrix
             Console.Write("Enter the second matrix:");
@@ -103,7 +101,6 @@ namespace Final_Project
                     {
                         value = false;
                     }
-
 
                     if (value)
                     {
